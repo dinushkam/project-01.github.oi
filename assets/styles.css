@@ -1,0 +1,52 @@
+img{
+    height: 200px;
+    width: 200px;
+}
+p{
+    text-align: center;
+    font-size: large;
+}
+
+.A1{
+    width: 220px;
+    background-color: white;
+    margin: 10px;
+}
+button{
+    background-color: rgb(32, 78, 162) ;
+    color: white;
+    margin-bottom: 10px;
+    border: blue;
+    font-size: 18px;
+    padding: 8px;
+    transition: opacity 1s,colour 1s;
+    
+}
+button:hover{
+    opacity: 0.5;
+    color: black;
+}
+.B1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgba(195, 192, 192, 0.625);
+    
+    
+}
+.D1, .E1{
+    display: inline-block;
+}
+.D1{
+    margin-left: 50px;
+}
+.F1{
+
+    margin: 50px 50px 100px 50px;
+}
+h1{
+    margin-bottom: 0px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
